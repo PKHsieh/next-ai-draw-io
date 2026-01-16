@@ -4,9 +4,6 @@ import type { NextRequest } from "next/server"
 import { NextResponse } from "next/server"
 import { i18n } from "./lib/i18n/config"
 
-// 🔴 新增這一行：強制指定為 Edge Runtime 以解決部署錯誤
-export const runtime = "edge"
-
 function getLocale(request: NextRequest): string | undefined {
     // Negotiator expects plain object so we need to transform headers
     const negotiatorHeaders: Record<string, string> = {}
