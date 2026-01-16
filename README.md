@@ -4,7 +4,7 @@
 
 **AI-Powered Diagram Creation Tool - Chat, Draw, Visualize**
 
-English | [中文](./docs/cn/README_CN.md) | [繁體中文](./README.md) | [日本語](./docs/ja/README_JA.md)
+English | [中文](./docs/cn/README_CN.md) | [繁體中文](./docs/tw/README_TW.md) | [日本語](./docs/ja/README_JA.md)
 
 [![TrendShift](https://trendshift.io/api/badge/repositories/15449)](https://next-ai-drawio.jiang.jp/)
 
