@@ -4,7 +4,7 @@
 
 **AI-Powered Diagram Creation Tool - Chat, Draw, Visualize**
 
-English | [中文](./docs/cn/README_CN.md) | [日本語](./docs/ja/README_JA.md)
+English | [中文](./docs/cn/README_CN.md) | [繁體中文](./README.md) | [日本語](./docs/ja/README_JA.md)
 
 [![TrendShift](https://trendshift.io/api/badge/repositories/15449)](https://next-ai-drawio.jiang.jp/)
 
@@ -241,6 +241,10 @@ The application uses the following technologies:
 
 Diagrams are represented as XML that can be rendered in draw.io. The AI processes your commands and generates or modifies this XML accordingly.
 
+
+
+### i18n Contribution (Traditional Chinese)
+The Traditional Chinese (`zh-TW`) localization was added to enhance accessibility for users in Taiwan, Hong Kong, and other regions using Traditional Chinese. This contribution follows the original project's Apache 2.0 licensing terms.
 
 ## Support & Contact
 
