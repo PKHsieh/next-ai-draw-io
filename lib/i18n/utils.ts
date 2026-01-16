@@ -12,3 +12,11 @@ export function formatMessage(
 }
 
 export default formatMessage
+
+/**
+ * Convert app locale to draw.io compatible language code
+ * draw.io uses lowercase codes: zh-tw, zh, ja, en
+ */
+export function toDrawioLang(locale: string): string {
+    return locale.toLowerCase()
+}

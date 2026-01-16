@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/resizable"
 import { useDiagram } from "@/contexts/diagram-context"
 import { i18n, type Locale } from "@/lib/i18n/config"
+import { toDrawioLang } from "@/lib/i18n/utils"
 
 const drawioBaseUrl =
     process.env.NEXT_PUBLIC_DRAWIO_BASE_URL || "https://embed.diagrams.net"
@@ -150,9 +151,8 @@ export default function Home() {
                     minSize={20}
                 >
                     <div
-                        className={`h-full relative ${
-                            isMobile ? "p-1" : "p-2"
-                        }`}
+                        className={`h-full relative ${isMobile ? "p-1" : "p-2"
+                            }`}
                     >
                         <div className="h-full rounded-xl overflow-hidden shadow-soft-lg border border-border/30 relative">
                             {isLoaded && (
@@ -173,7 +173,7 @@ export default function Home() {
                                             noSaveBtn: true,
                                             noExitBtn: true,
                                             dark: darkMode,
-                                            lang: currentLang,
+                                            lang: toDrawioLang(currentLang),
                                         }}
                                     />
                                 </div>
